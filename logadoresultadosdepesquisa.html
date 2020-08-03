@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel='icon' href='./imgs/logoico.png' type='image/x-icon' sizes="16x16" />
+
+	<title>Resultados da pesquisa</title>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+
+	<script src="https://kit.fontawesome.com/ec86e291be.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+		type="text/css">
+
+	<link href="./vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+	<script src="./js/bootstrap.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+
+		<div class="container">
+
+			<a class="navbar-brand" href="logadoindex.html">
+				<img src="./imgs/logo2.svg" alt="logo" style="width:150px;height:60px;">
+			</a>
+
+			<ul class="navbar-nav ml-auto">
+
+				<li class="nav-item dropleft">
+
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Perfil <i
+							class="fas fa-user-circle"></i>
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="logadominhaconta.html">Minha Conta</a>
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+
+	</nav>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+		<div class="container">
+			<a class="navbar-brand h1 mb-0" href="#"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSite">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="logadoserviços.html">Serviços</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="logadocomoFunciona.html">Como Funciona</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="logadosobre.html">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="logadofaq.html">Perguntas Frequentes</a>
+					</li>
+				</ul>
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Sair</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+
+	</nav>
+
+	<!-- BEGIN RESULTS PAGE -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<div class="container mt-5 mb-5">
+		<div class="row">
+			<!-- BEGIN SEARCH RESULT -->
+			<div class="col-md-12">
+				<div class="grid search">
+					<div class="grid-body">
+						<div class="row">
+							<!-- BEGIN FILTERS -->
+							<div class="col-md-3">
+								<h2 class="grid-title"><i class="fa fa-filter"></i> Filtros</h2>
+								<hr>
+
+								<!-- BEGIN FILTER BY CATEGORY -->
+								<h4>Por categoria:</h4>
+								<div class="checkbox">
+									<label><input type="checkbox" class="icheck"> Carro</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" class="icheck"> Casa</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" class="icheck"> Eletricista </label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" class="icheck"> Encanador </label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" class="icheck"> Assistência para computador </label>
+								</div>
+
+								<!-- END FILTER BY CATEGORY -->
+
+								<div class="padding"></div>
+								<div class="padding"></div>
+								<!-- BEGIN FILTER BY PRICE -->
+								<h4>Por preço</h4>
+								De <div id="price1">R$500 </div> até <div id="price2">R$800</div>
+								<div class="slider-primary">
+									<div class="slider slider-horizontal" style="width: 152px;">
+										<div class="slider-track">
+											<div class="slider-selection" style="left: 30%; width: 50%;"></div>
+											<div class="slider-handle round" style="left: 30%;"></div>
+											<div class="slider-handle round" style="left: 80%;"></div>
+										</div>
+										<div class="tooltip top hide" style="top: -30px; left: 50.1px;">
+											<div class="tooltip-arrow"></div>
+											<div class="tooltip-inner">300 : 800</div>
+										</div><input type="text" class="slider" value="" data-slider-min="0"
+											data-slider-max="1000" data-slider-step="1" data-slider-value="[300,800]"
+											data-slider-tooltip="hide">
+									</div>
+								</div>
+								<!-- END FILTER BY PRICE -->
+							</div>
+							<!-- END FILTERS -->
+							<!-- BEGIN RESULT -->
+							<div class="col-md-9">
+								<h2><i class="fa fa-file-o"></i> Resultados</h2>
+								<hr>
+								<!-- BEGIN SEARCH INPUT -->
+								<div class="input-group">
+									<input type="text" class="form-control" value="Serviços para casa">
+									<span class="input-group-btn">
+										<button class="btn btn-primary" type="button"><i
+												class="fa fa-search"></i></button>
+									</span>
+								</div>
+								<!-- END SEARCH INPUT -->
+								<p>Todos os resultados para "Serviços para casa"</p>
+								<div class="padding"></div>
+								<div class="row">
+
+									<!-- BEGIN TABLE RESULT -->
+									<div class="table-responsive">
+										<table class="table table-hover">
+											<tbody>
+												<tr>
+													<td class="number text-center">1</td>
+													<td class="image"><img
+															src="./imgs/serviços/chaveiro2.jpg" alt="chaveiro">
+													</td>
+													<td class="product"><strong>Chaveiro</strong><br>Chaveiros de Ouro,
+														toda hora e em qualquer lugar.</td>
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i
+																class="fa fa-star-half-o"></i></span></td>
+													<td class="price text-right">R$350</td>
+												</tr>
+												<tr>
+													<td class="number text-center">2</td>
+													<td class="image"><img
+															src="./imgs/serviços/enacandor2.jpg" alt="encanador">
+													</td>
+													<td class="product"><strong>Encanador</strong><br>Encanador Mario,
+														sempre atrás da princesa.</td>
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i><i
+																class="fa fa-star-o"></i><i
+																class="fa fa-star-o"></i></span></td>
+													<td class="price text-right">R$1,050</td>
+												</tr>
+												<tr>
+													<td class="number text-center">3</td>
+													<td class="image"><img src="./imgs/serviços/eletricista2.jpg"
+															alt="eletricista"></td>
+													<td class="product"><strong>Eletricista </strong><br>Eletricista,
+														choque do trovão.</td>
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i><i
+																class="fa fa-star-o"></i><i
+																class="fa fa-star-half-o"></i></span></td>
+													<td class="price text-right">R$550</td>
+												</tr>
+												<tr>
+													<td class="number text-center">4</td>
+													<td class="image"><img
+															src="./imgs/serviços/jardineiro.jpg" alt="jardineiro">
+													</td>
+													<td class="product"><strong>Jardineiro</strong><br>Jesus é o
+														jardineiro.</td>
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i
+																class="fa fa-star-o"></i></span></td>
+													<td class="price text-right">R$330</td>
+												</tr>
+												<tr>
+													<td class="number text-center">5</td>
+													<td class="image"><img src="./imgs/serviços/Vidraceiro.jpg"
+															alt="vidraceiro"></td>
+													<td class="product"><strong>Vidraceiro</strong><br>Profissionais totalmente transparentes</td>
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i></span>
+													</td>
+													<td class="price text-right">R$540</td>
+												</tr>
+												<tr>
+													<td class="number text-center">6</td>
+													<td class="image"><img
+															src="./imgs/serviços/Dedetizador.jpg" alt="dedetizador">
+													</td>
+													<td class="product"><strong>Dedetizador</strong><br>Dedetiza a dor.
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i
+																class="fa fa-star-half-o"></i></span></td>
+													<td class="price text-right">$870</td>
+												</tr>
+												<tr>
+													<td class="number text-center">7</td>
+													<td class="image"><img
+															src="./imgs/serviços/pintor.jpeg" alt="">
+													</td>
+													<td class="product"><strong>Pintor</strong><br>Insira um trocadilho colorido aqui </td>
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star-o"></i><i
+																class="fa fa-star-o"></i><i
+																class="fa fa-star-o"></i></span></td>
+													<td class="price text-right">R$620</td>
+												</tr>
+												<tr>
+													<td class="number text-center">8</td>
+													<td class="image"><img
+															src="./imgs/serviços/calheiro.jpg" alt="">
+													</td>
+													<td class="product"><strong>Calheiro</strong><br>Comigo nada fica encalhado</td>
+													<td class="rate text-right"><span><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i class="fa fa-star"></i><i
+																class="fa fa-star"></i><i
+																class="fa fa-star-half-o"></i></span></td>
+													<td class="price text-right">R$1,550</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<!-- END TABLE RESULT -->
+									<!-- BEGIN PAGINATION -->
+									<ul class="pagination">
+										<li class="disabled"><a href="#">«</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">»</a></li>
+									</ul>
+									<!-- END PAGINATION -->
+								</div>
+								<!-- END RESULT -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END SEARCH RESULT -->
+			</div>
+		</div>
+	</div>
+</body>
+
+<footer class="footer bg-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 h-100 text-center my-auto">
+				<ul class="list-inline mb-2">
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="logadoareaDeCobertura.html">Área de Cobertura</a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="logadofaq.html">Perguntas Frequentes</a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="logadopoliticadeprivacidade.html">Política de Privacidade</a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="logadosobre.html">Sobre </a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+				</ul>
+				<p class="text-muted small mb-4 mb-lg-0">&copy; HomeRepair 2020. Todos os direitos reservados.</p>
+			</div>
+			<div class="col-lg-4 h-100 text-center text-lg-right my-auto">
+				<ul class="list-inline mb-0">
+					<li class="list-inline-item mr-3">
+						<a href="#">
+							<i class="fab fa-facebook fa-2x fa-fw"></i>
+						</a>
+					</li>
+					<li class="list-inline-item mr-3">
+						<a href="#">
+							<i class="fab fa-twitter-square fa-2x fa-fw"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<i class="fab fa-instagram fa-2x fa-fw"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+</footer>
+
+
+</html>

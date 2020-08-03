@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel='icon' href='./imgs/logoico.png' type='image/x-icon' sizes="16x16" />
+
+	<title>Serviços HomeRepair</title>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+
+	<script src="https://kit.fontawesome.com/ec86e291be.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+		type="text/css">
+
+	<link href="./vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+	<script src="./js/bootstrap.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+
+		<div class="container">
+
+			<a class="navbar-brand" href="index.html">
+				<img src="./imgs/logo2.svg" alt="logo" style="width:150px;height:60px;">
+			</a>
+
+			<ul class="navbar-nav ml-auto">
+
+				<li class="nav-item dropleft">
+
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Perfil <i
+							class="fas fa-user-circle"></i>
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="loginminhaconta.html">Minha Conta</a>
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+
+	</nav>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+		<div class="container">
+
+			<a class="navbar-brand h1 mb-0" href="#"></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSite">
+
+				<ul class="navbar-nav mr-auto">
+
+					<li class="nav-item">
+					  <a class="nav-link" href="serviços.html">Serviços</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="comofunciona.html">Como Funciona</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="sobre.html">Sobre</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="faq.html">Perguntas Frequentes</a>
+					</li>
+		  
+				  </ul>
+
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a class="nav-link" href="login.html">Login</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cadastro.html">Cadastre-se</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</nav>
+
+<!-- ======= Latest Properties Section ======= -->
+<div class="tr-job-posted section-padding mt-5 min-vh-70">
+	<div class="container">
+		<div class="job-tab text-center">
+			<ul class="nav nav-tabs justify-content-center nav-color" role="tablist">
+				<li role="presentation" class="active1">
+					<a class="" href="#hot-jobs" aria-controls="hot-jobs" role="tab" data-toggle="tab"
+						aria-selected="true">Serviços mais requisitados</a>
+				</li>
+				<li role="presentation"><a href="#recent-jobs" aria-controls="recent-jobs" role="tab"
+						data-toggle="tab" class="" aria-selected="false">Serviços recém publicados</a></li>
+				<li role="presentation"><a href="#popular-jobs" aria-controls="popular-jobs" role="tab"
+						data-toggle="tab" class="" aria-selected="false">Serviços com melhor avaliados</a></li>
+			</ul>
+
+
+			<div class="tab-content text-left">
+				<div role="tabpanel" class="tab-pane fade active show" id="hot-jobs">
+					<div class="row">
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Chaveiro</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Chaveiros de Ouro</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$350 - R$500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/chaveiro.jpg" alt="chaveiro"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Chaveiros de ouro</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$350 - R$500
+										</li>
+									</ul>
+									<div class="time">
+										<a href="#"><span>24hrs</span></a>
+										<span class="pull-right">Publicado 1 sem atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Encanador</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Encanador Mário</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$1050 - R$5500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/Encanador.jpg" alt="Encanador"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Encanador Mário</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$1050 -
+											R$5500</li>
+									</ul>
+									<div class="time">
+
+										<span class="pull-right">Publicado 1 mês atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Eletricista</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Eletricista choque do trovão</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$550 - R$6000</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/eletricista.jpg" alt="eletricista"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Eletricista choque do trovão</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$R$550 -
+											R$6000</li>
+									</ul>
+									<div class="time">
+
+										<span class="pull-right">Publicado 1 ano atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Jardineiro</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Jesus é o jardineiro</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$330 - R$500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/jardineiro.jpg" alt="jardineiro"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Jesus é o jardineiro</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$330 - R$500
+										</li>
+									</ul>
+									<div class="time">
+										<a href="#"><span>24hrs</span></a>
+										<span class="pull-right">Publicado 1 sem atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.row -->
+				</div><!-- /.tab-pane -->
+				<div role="tabpanel" class="tab-pane fade in" id="recent-jobs">
+					<div class="row">
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Chaveiro</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Chaveiros de Ouro</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$350 - R$500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/chaveiro.jpg" alt="chaveiro"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Chaveiros de ouro</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$350 - R$500
+										</li>
+									</ul>
+									<div class="time">
+										<a href="#"><span>24hrs</span></a>
+										<span class="pull-right">Publicado 1 sem atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Encanador</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Encanador Mário</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$1050 - R$5500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/Encanador.jpg" alt="encanador"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Encanador Mário</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$1050 -
+											R$5500</li>
+									</ul>
+									<div class="time">
+
+										<span class="pull-right">Publicado 1 mês atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Eletricista</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Eletricista choque do trovão</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$550 - R$6000</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/eletricista.jpg" alt="eletricista"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Eletricista choque do trovão</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$R$550 -
+											R$6000</li>
+									</ul>
+									<div class="time">
+
+										<span class="pull-right">Publicado 1 ano atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Jardineiro</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Jesus é o jardineiro</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$330 - R$500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/jardineiro.jpg" alt="jardineiro"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Jesus é o jardineiro</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$330 - R$500
+										</li>
+									</ul>
+									<div class="time">
+										<a href="#"><span>24hrs</span></a>
+										<span class="pull-right">Publicado 1 sem atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div><!-- /.row -->
+				</div><!-- /.tab-pane -->
+				<div role="tabpanel" class="tab-pane fade in" id="popular-jobs">
+					<div class="row">
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Chaveiro</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Chaveiros de Ouro</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$350 - R$500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/chaveiro.jpg" alt="chaveiro"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Chaveiros de ouro</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$350 - R$500
+										</li>
+									</ul>
+									<div class="time">
+										<a href="#"><span>24hrs</span></a>
+										<span class="pull-right">Publicado 1 sem atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Encanador</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Encanador Mário</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$1050 - R$5500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/Encanador.jpg" alt="encanador"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Encanador Mário</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$1050 -
+											R$5500</li>
+									</ul>
+									<div class="time">
+
+										<span class="pull-right">Publicado 1 mês atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Eletricista</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Eletricista choque do trovão</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$550 - R$6000</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/eletricista.jpg" alt="eletricista"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Eletricista choque do trovão</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$R$550 -
+											R$6000</li>
+									</ul>
+									<div class="time">
+
+										<span class="pull-right">Publicado 1 ano atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="job-item">
+								<div class="item-overlay">
+									<div class="job-info">
+										<a href="#" class="btn btn-primary">Jardineiro</a>
+										<span class="tr-title">
+											</br>
+											<span><a href="#">Jesus é o jardineiro</a></span>
+										</span>
+										<ul class="tr-list job-meta">
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>Curitiba/PR.</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Casa</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>R$330 - R$500</li>
+										</ul>
+										<ul class="job-social tr-list">
+											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-long-arrow-right"
+														aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="job-info">
+									<div class="company-logo">
+										<img src="./imgs/serviços/jardineiro.jpg" alt="jardineiro"
+											class="img-fluid">
+									</div>
+									<span class="tr-title">
+										<a href="#">Jesus é o jardineiro</a>
+									</span>
+									<ul class="tr-list job-meta">
+										<li><span><i class="fa fa-map-signs"
+													aria-hidden="true"></i></span>Curitiba/PR</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Casa</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>R$330 - R$500
+										</li>
+									</ul>
+									<div class="time">
+										<a href="#"><span>24hrs</span></a>
+										<span class="pull-right">Publicado 1 sem atrás</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.row -->
+				</div><!-- /.tab-pane -->
+			</div>
+		</div><!-- /.job-tab -->
+	</div><!-- /.container -->
+</div>
+</body>
+
+<footer class="footer bg-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 h-100 text-center my-auto">
+				<ul class="list-inline mb-2">
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="areadecobertura.html">Área de Cobertura</a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="faq.html">Perguntas Frequentes</a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="politicadeprivacidade.html">Política de Privacidade</a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+					<li class="list-inline-item">
+						<a href="sobre.html">Sobre </a>
+					</li>
+					<li class="list-inline-item">&sdot;</li>
+				</ul>
+				<p class="text-muted small mb-4 mb-lg-0">&copy; HomeRepair 2020. Todos os direitos reservados.</p>
+			</div>
+			<div class="col-lg-4 h-100 text-center text-lg-right my-auto">
+				<ul class="list-inline mb-0">
+					<li class="list-inline-item mr-3">
+						<a href="#">
+							<i class="fab fa-facebook fa-2x fa-fw"></i>
+						</a>
+					</li>
+					<li class="list-inline-item mr-3">
+						<a href="#">
+							<i class="fab fa-twitter-square fa-2x fa-fw"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">
+							<i class="fab fa-instagram fa-2x fa-fw"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</html>

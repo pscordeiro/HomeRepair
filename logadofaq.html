@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='icon' href='./imgs/logoico.png' type='image/x-icon' sizes="16x16" />
+
+  <title>FAQ</title>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/ec86e291be.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+    type="text/css">
+
+  <link href="./vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+  <script src="./js/bootstrap.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+
+    <div class="container">
+
+      <a class="navbar-brand" href="logadoindex.html">
+        <img src="./imgs/logo2.svg" alt="logo" style="width:150px;height:60px;">
+      </a>
+
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item dropleft">
+
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Perfil <i
+              class="fas fa-user-circle"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="logadominhaconta.html">Minha Conta</a>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container">
+      <a class="navbar-brand h1 mb-0" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSite">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="logadoserviços.html">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logadocomoFunciona.html">Como Funciona</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logadosobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logadofaq.html">Perguntas Frequentes</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Sair</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </nav>
+
+
+</body>
+
+<section>
+  <div class="Caixa-principal">
+    <h1 style="color: #3bbcf0;text-align: center;margin-top: 20px; margin-bottom: 20px;"><svg class="bi bi-hammer"
+        width="2em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M9.812 1.952a.5.5 0 0 1-.312.89c-1.671 0-2.852.596-3.616 1.185L4.857 5.073V6.21a.5.5 0 0 1-.146.354L3.425 7.853a.5.5 0 0 1-.708 0L.146 5.274a.5.5 0 0 1 0-.706l1.286-1.29a.5.5 0 0 1 .354-.146H2.84C4.505 1.228 6.216.862 7.557 1.04a5.009 5.009 0 0 1 2.077.782l.178.129z" />
+        <path fill-rule="evenodd"
+          d="M6.012 3.5a.5.5 0 0 1 .359.165l9.146 8.646A.5.5 0 0 1 15.5 13L14 14.5a.5.5 0 0 1-.756-.056L4.598 5.297a.5.5 0 0 1 .048-.65l1-1a.5.5 0 0 1 .366-.147z" />
+      </svg>Perguntas Frequentes</h1>
+  </div>
+
+  <div class="container">
+    <div class="d-flex justify-content-center h-100">
+      <div class="user_card">
+
+        <div class="d-flex justify-content-center form_container">
+
+          <form class="text-center" action="" method="POST">
+
+            <ul class="nav nav-tabss nav-justified" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                  aria-selected="true">Cliente</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                  aria-controls="profile" aria-selected="false">Prestador</a>
+              </li>
+            </ul>
+            <div class=" tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                          data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Quais são as formas de pagamento?
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Você pode registrar seu cartão de crédito dentro de nosso site para realizar os pagamentos,
+                        podem
+                        ser
+                        realizados a partir de débito e boleto bancário, desde que insira um cartão de crédio válido
+                        com
+                        as
+                        informações todas corretas que permita o uso no site.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          O serviço realizado não ficou da maneira que eu queria. O que eu faço?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Você pode entrar em contato conosco a partir de nosso email Homerepair@contato.com, mande
+                        sua
+                        situação que
+                        nossa equipe irá analisar e passar um parecer assim que possível, informando de como
+                        proceder
+                        com a
+                        ocasião de
+                        não satisfação do serviço prestado.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Não consigo soliciar serviço. O que eu faço?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Primeiramente veja se os serviços prestados cobrem sua área, caso esteja em dúvida vá até "Área
+                        de Cobertura" e veja as áreas cobertas pelo nossos prestadores.
+                        Caso esteja na área de alcance por favor entre em contato pelo email Contato@HomeRepair.com para
+                        oferecer o suporte.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                          data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                          Como solicitar um serviço?
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Pesquise o serviço que deseja dentro do site, veja se possuí algum prestador na sua área de
+                        cobertura para que
+                        fique acessível, permitindo que o prestador se desloque para sua casa de maneira que
+                        facilite o
+                        seviço para
+                        ambos.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Avalição do serviço prestado?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Após o término do serviço prestado, você pode avaliar o prestador, se o trabalho realizado
+                        foi
+                        executado da
+                        maneira correta, o prestador agiu de boa fé durante o período de serviço, sendo atencioso.
+                        Essa
+                        nota
+                        vai
+                        refletir no perfil do mesmo, para que o sistema indique para novos serviços.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingSix">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          Prestador aceitou o serviço, porém não compareceu no dia solicitado.
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Caso isso aconteça abra um ticket de reclamação para o prestador e iremos analisar o ocorrido
+                        para uma tomada de decisão precisa e apurada.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingSeven">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                          data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                          Como posso divulgar meu trabalho?
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Você pode mostrar seu portifólios de trabalhos realizados, demontranstrando sua qualiade de
+                        serviço ao cliente e transmitindo confiança, pois isso atrai visibilidade.
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingEight">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                          Não pude comparacer no serviço por conta de imprevistos. Como devo proceder?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Caso não vá aparecer no serviço agendando, avise o cliente com antecedência para não atrapalhar
+                        o cotidiano do mesmo.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingNine">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                          Posso atuar em mais de uma função?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Sim. Isso será possível a partir do momento que se tem algo comprovoando sua experiência
+                        profissional
+                        demonstrando sua habilidade dentro da função que será exercida, para atuar em outras funções
+                        deve
+                        enviar algo
+                        comprovando sua formação dentro do serviço que será exercido por parte do prestador
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTen">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                          data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                          Posso aceitar mais de um serviço no dia?
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Sim. Porém você não pode exceder uma carga horária acima de 10 horas, em questão de sua saúde
+                        fisíca e mental, pois se preocupamos com nossos prestadores.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingEleven">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                          Como faço pra ser mais recomendado dentro do site?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        A partir que seus serviços são finalizados, o cliente irá realizar uma avaliação, quanto maior
+                        satisfação maior recomendado você será :).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwelve">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                          Como vou receber meu dinheiro?
+                      </h2>
+                    </div>
+                    <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        Após o pagamento do cliente, o saldo depositado ficará retido por 1 semana dentro de nosso
+                        sistema,
+                        até que
+                        ambos os lados estejam de acordo e satisfeito com o serviço prestado.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h1 style="color: #3bbcf0; text-align: center; margin-top: 20px; margin-bottom: 20px;"><svg
+                class="bi bi-chat-square" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+              </svg>Mande sua pergunta!</h1>
+            <container-1>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1" style="background-color: #3bbcf0;">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Nome do Usuário" aria-label="Username"
+                  aria-describedby="basic-addon1">
+              </div>
+
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Digite seu email" aria-label="Recipient's username"
+                  aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">@exemplo.com</span>
+                </div>
+              </div>
+
+              <div class="input-group" style="background-color: #3bbcf0;">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Qual sua dúvida?</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+                <input class="btn btn-primary" type="submit" value="Enviar" style="background-color: #808080">
+              </div>
+            </container-1>
+        </div>
+</section>
+
+<footer class="footer bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 h-100 text-center my-auto">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="logadoareaDeCobertura.html">Área de Cobertura</a>
+          </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="logadofaq.html">Perguntas Frequentes</a>
+          </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="logadopoliticadeprivacidade.html">Política de Privacidade</a>
+          </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="logadosobre.html">Sobre </a>
+          </li>
+          <li class="list-inline-item">&sdot;</li>
+        </ul>
+        <p class="text-muted small mb-4 mb-lg-0">&copy; HomeRepair 2020. Todos os direitos reservados.</p>
+      </div>
+      <div class="col-lg-4 h-100 text-center text-lg-right my-auto">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item mr-3">
+            <a href="#">
+              <i class="fab fa-facebook fa-2x fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item mr-3">
+            <a href="#">
+              <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-instagram fa-2x fa-fw"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
+
+</html>
